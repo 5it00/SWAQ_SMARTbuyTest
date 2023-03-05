@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Methods_Test-SwagLab by groups]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GRP-Arrange(failed)">
+    <groups>
+      <run>
+        <include name="Arrange"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="SWag_test.SWAG">
+        <methods>
+          <include name="arrange_low_high"/>
+        </methods>
+      </class> <!-- SWag_test.SWAG -->
+    </classes>
+  </test> <!-- GRP-Arrange(failed) -->
+</suite> <!-- Failed suite [Methods_Test-SwagLab by groups] -->
